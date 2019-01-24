@@ -1,2 +1,11 @@
-// Global SCSS styling
-// @see https://docs.nativescript.org/ui/styling
+/*========= GLOBAL SCSS STYLING AND NATIVE COMPONENTS ==========*/
+@import "assets/scss/style";
+
+ActionBar {
+    background-color: $bg-primary;
+    color: white;
+}
+
+Page{
+	background-color: $bg-primary;
+}
